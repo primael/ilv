@@ -77,7 +77,7 @@ function init(font) {
 	renderer.setClearColor(0x050505);
 	renderer.setPixelRatio(window.devicePixelRatio);
 	renderer.setSize(window.innerWidth, window.innerHeight);
-	var container = document.getElementById('container');
+	var container = document.getElementById('containerText');
 	container.appendChild(renderer.domElement);
 	
 	window.addEventListener('resize', onWindowResize, false);
